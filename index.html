@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="FRAG AI — аналитика матчей CS2 и персональный AI-тренер для игроков FACEIT.">
+<title>FRAG AI — CS2 Analytics</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#090a0d;color:#f2f2f2;font-family:Arial,sans-serif;line-height:1.6}
+header{height:76px;border-bottom:1px solid #202127;display:flex;align-items:center;justify-content:space-between;padding:0 8%;background:#0c0d11}
+.logo{font-size:23px;font-weight:800;letter-spacing:1px}
+.logo span{color:#a78bfa}
+nav a{color:#aaa;text-decoration:none;margin-left:28px;font-size:14px}
+nav a:hover{color:white}
+.hero{min-height:650px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:70px 20px;background:radial-gradient(ellipse at 50% 30%,#292044 0%,#111019 40%,#090a0d 75%)}
+.tag{border:1px solid #514078;color:#c4b5fd;border-radius:30px;padding:7px 15px;font-size:12px;margin-bottom:28px}
+h1{font-size:clamp(43px,8vw,78px);line-height:1.05;letter-spacing:-3px;margin-bottom:22px}
+h1 span{color:#a78bfa}
+.hero p{max-width:590px;color:#aaa;font-size:17px;margin-bottom:32px}
+.btn{display:inline-block;background:#8b5cf6;color:white;padding:14px 25px;border-radius:9px;text-decoration:none;font-weight:bold;transition:.2s}
+.btn:hover{background:#7543df;transform:translateY(-2px)}
+.secondary{color:#ccc;text-decoration:none;margin-left:22px;font-size:14px}
+section{padding:85px 8%}
+.section-title{text-align:center;font-size:34px;margin-bottom:12px}
+.section-sub{text-align:center;color:#888;margin-bottom:45px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#111217;border:1px solid #24252d;border-radius:15px;padding:28px}
+.card .symbol{font-size:27px;margin-bottom:17px}
+.card h3{font-size:19px;margin-bottom:10px}
+.card p{color:#999;font-size:14px}
+.about{background:#0e0f14;border-top:1px solid #202127;border-bottom:1px solid #202127;text-align:center}
+.about p{max-width:700px;margin:20px auto;color:#999}
+.cta{text-align:center}
+footer{border-top:1px solid #222;padding:28px 8%;color:#777;font-size:12px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+max-width:700px{nav{display:none}.cards{grid-template-columns:1fr}section{padding:65px 6%}footer{flex-direction:column}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">FRAG <span>AI</span></div>
+  <nav>
+    <a href="#features">Возможности</a>
+    <a href="#about">О проекте</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="tag">CS2 ANALYTICS · AI COACH</div>
+    <h1>ИГРАЙ УМНЕЕ.
+<span>СТАНОВИСЬ СИЛЬНЕЕ.</span></h1>
+    <p>Анализируй свою игру в Counter-Strike 2, изучай статистику FACEIT и находи точки роста вместе с FRAG AI.</p>
+    <div>
+      <a class="btn" href="#features">Исследовать возможности</a>
+      <a class="secondary" href="#about">О проекте →</a>
+    </div>
+  </div>
+
+  <section id="features">
+    <h2 class="section-title">ТВОЯ ИГРА. ТВОИ ДАННЫЕ.</h2>
+    <p class="section-sub">Инструменты для осознанного развития в CS2</p>
+    <div class="cards">
+      <article class="card">
+        <div class="symbol">📊</div>
+        <h3>Статистика FACEIT</h3>
+        <p>Изучай игровые показатели, результаты матчей и динамику своего прогресса.</p>
+      </article>
+      <article class="card">
+        <div class="symbol">🤖</div>
+        <h3>AI Coach</h3>
+        <p>Получай аналитические рекомендации и разбирай игровые ошибки с помощью AI.</p>
+      </article>
+      <article class="card">
+        <div class="symbol">🎯</div>
+        <h3>Твой прогресс</h3>
+        <p>Отслеживай изменения показателей и определяй направления для дальнейшего развития.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">О FRAG AI</h2>
+    <p>FRAG AI — независимый проект, посвящённый аналитике Counter-Strike 2 и развитию игроков. Наша идея — сделать игровые данные понятными и полезными.</p>
+    <p>Проект не является официальным продуктом FACEIT или Valve и не связан с этими компаниями.</p>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2 class="section-title">ТВОЙ СЛЕДУЮЩИЙ УРОВЕНЬ НАЧИНАЕТСЯ ЗДЕСЬ.</h2>
+    <p class="section-sub">FRAG AI — проект в разработке.</p>
+    <a class="btn" href="#features">Узнать о возможностях</a>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 FRAG AI. Независимый проект.</span>
+  <span>Made for CS2 players.</span>
+</footer>
+</body>
+</html>
